@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 0.6%;
+}
+
+input{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+button{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #c3ffe3;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #00ff9d;
+    transition: 0.3s;
+}
+
+#linOff{
+    margin-left: 30px;
+}
+
+#but1{
+    margin-left: 1.2%;
+}
+
+#but2{
+    margin-right: 1.2%;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+#canvas{
+    display: inline-block;
+}
+
+#col1{
+    margin-right: 0.75%;
+}
+
+#col2{
+    margin-left: 0.75%;
+}
+
+.sidebar{
+    margin-top: 0.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#pTitle1{
+    text-align: right;
+    margin: 0;
+}
+
+#pTitle2{
+    text-align: left;
+    margin: 0;
+}
+
+.score{
+    margin: 0.1%;
+    font-size: 80px;
+}
+
+#s1{
+    color: #FF0000; 
+}
+
+#s2{
+    color: #197CFF;
+}
+
+#reset{
+    padding: 0.7% 2.3%;
+}
+
+#mainWrap{
+    margin-top: 0.7%;
+    margin-bottom: 0.6%;
+}
+
+#cp1{
+    text-align: right;
+}
+
+.jscolor{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+}

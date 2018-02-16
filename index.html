@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>TicTacToe - Test</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+		<script type="text/javascript" src="jscolor.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"/>
+	</head>
+	<body>
+		<button id="but2" type="button">Undo</button>
+		<label id=linSize><b>Field Size: </b></label><input id="sizeBox" value = 15>
+		<label id="linOff"><b>Cell Size: </b></label><input id="offBox" value = 55>
+		<button id="but1" type="button">Next Game</button>
+		<div id="mainWrap">
+			<div id = "col1" class = "sidebar">
+				<p id="pTitle1">Pick Color #01:</p>
+				<input id="cp1" class="jscolor" value = "FF0000"></br>
+				<b><p id="s1" class="score">0</p></b>
+			</div>
+			<canvas id="canvas">Your browser does not support the HTML5 canvas tag.</canvas>
+			<div id = "col2" class = "sidebar">
+				<p id="pTitle2">Pick Color #02:</p>
+				<input id="cp2" class="jscolor" value = "197CFF"></br>
+				<b><p id="s2" class="score">0</p></b>
+			</div>
+		</div>
+		<button id="reset" type="button">Reset Score</button>	
+		<script type="text/javascript" src="game.js"></script>
+	</body>
+</html>
